@@ -3,7 +3,7 @@
 
 openresty实现的,模拟expect命令库.
 实现自动shell交互,根据匹配的shell输出发送特定的输入.
-目前自己的需求就这么简单,有其他想法还原提
+目前自己的需求就这么简单,有其他想法欢迎提
 
 示例
 ========
@@ -33,7 +33,7 @@ input xuzz\
 call
 ---
 
-**syntax:** `res = expect.call(cmd,opt?,isdebug?)
+**syntax:** `res = expect:call(cmd,opt?,isdebug?)
 
 **context:** `any phases supporting yielding`
 
