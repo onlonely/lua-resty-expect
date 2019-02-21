@@ -33,7 +33,7 @@ input xuzz\
 call
 ---
 
-**syntax:** `res = expect:call(cmd,opt?,isdebug?)
+**syntax:** `res = expect:call(cmd,opt?,isdebug?)`
 
 **context:** `any phases supporting yielding`
 
